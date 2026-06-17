@@ -1,5 +1,9 @@
 # NiFiPilot Agents
 
+<p align="center">
+  <img src="docs/assets/logo_nifipilot_agents.png" alt="NiFiPilot Agents" width="400"/>
+</p>
+
 AI agents that control Apache NiFi via natural language using the NiFiPilot MCP server.
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue)](pyproject.toml)
