@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nifipilot-agents"
+version = "0.1.0"
+description = "Orchestration agents for NiFiPilot — control Apache NiFi with AI"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40",
+    "nifipilot>=0.1.1",
+    "python-dotenv>=1.0",
+]
