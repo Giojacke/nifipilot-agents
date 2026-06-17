@@ -2,6 +2,9 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.hatch.build.targets.wheel]
+packages = ["agents"]
+
 [project]
 name = "nifipilot-agents"
 version = "0.1.0"
@@ -9,6 +12,7 @@ description = "Orchestration agents for NiFiPilot — control Apache NiFi with A
 requires-python = ">=3.11"
 dependencies = [
     "anthropic>=0.40",
+    "litellm>=1.0",
     "mcp>=1.0",
     "nifipilot>=0.1.1",
     "python-dotenv>=1.0",
